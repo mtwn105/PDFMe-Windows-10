@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="3076AmitWani.PDFMe-WebtoPDFConverterBETA" Publisher="CN=ADB919C7-0B82-43D2-AC12-CC4C035C5179" Version="0.2.81.0" />
+  <mp:PhoneIdentity PhoneProductId="7e49b3f5-afdb-49c9-a107-deb83bc46853" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>PDF Me - Web to PDF Converter BETA</DisplayName>
+    <PublisherDisplayName>Amit Wani</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="PDF_Me_Universal.App">
+      <uap:VisualElements DisplayName="PDF Me - Website to PDF Converter" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="PDF Me Universal" BackgroundColor="#f44336">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\Square71x71Logo.png" Square310x310Logo="Assets\Square310x310Logo.png">
+        </uap:DefaultTile>
+        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="portrait" />
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+      <Extensions>
+        <uap:Extension Category="windows.shareTarget">
+          <uap:ShareTarget Description="Convert to PDF">
+            <uap:DataFormat>URI</uap:DataFormat>
+            <uap:DataFormat>Text</uap:DataFormat>
+          </uap:ShareTarget>
+        </uap:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
+    <uap:Capability Name="removableStorage" />
+  </Capabilities>
+</Package>

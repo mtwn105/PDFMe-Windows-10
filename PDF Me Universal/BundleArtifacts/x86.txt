@@ -1,0 +1,2 @@
+MainPackage=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\bin\x86\Release\PDF Me Universal_0.2.81.0_x86.appx
+SymbolPackage=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\AppPackages\PDF Me Universal_0.2.81.0_Test\PDF Me Universal_0.2.81.0_x86.appxsym

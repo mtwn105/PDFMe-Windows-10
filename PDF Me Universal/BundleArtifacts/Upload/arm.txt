@@ -1,0 +1,6 @@
+MainPackage=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\bin\ARM\Release\Upload\PDF Me Universal_0.2.81.0_ARM.appx
+SymbolPackage=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\AppPackages\PDF Me Universal_0.2.81.0\PDF Me Universal_0.2.81.0_ARM.appxsym
+ResourcePack=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\_scale-100.appx
+ResourcePack=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\_scale-125.appx
+ResourcePack=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\_scale-150.appx
+ResourcePack=C:\Users\mtwn1\Documents\project\PDF Me Universal\PDF Me Universal\_scale-400.appx
